@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Max's Portfolio</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+	<style type="text/css">
+		html{
+			overflow-y: scroll;
+		}
+	</style>
+</head>
+<body>
+
+	<!--navbar-->
+	<nav class="navbar navbar-expand-sm navbar-light bg-secondary">
+		<div class="container p-0">
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<a class="navbar-brand text-dark">Max Adams</a>
+	        	<ul class="navbar-nav ml-auto">
+	         		<li class="nav-item">
+	            		<a class="nav-link" href="index.html">About</a>
+		          	</li>
+		          	<li class="nav-item">
+		            	<a class="nav-link" href="portfolio.html">Portfolio</a>
+		    	    </li>
+		          	<li class="nav-item">
+		            	<a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+		          	</li>
+		        </ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--Contact Form-->
+	<br>
+	<br>
+	<div class="container p-0">
+		<div class="row">
+			<div class="card col-md-8">
+				<div class="card-body">
+					<h2>Contact</h2>
+					<hr>
+					<form>
+				  		<div class="form-group">
+				    		<label for="nameinput">Name</label>
+						    <input type="email" class="form-control" id="nameinput" placeholder="John Smith">
+						 </div>
+				  		<div class="form-group">
+				    		<label for="emailinput">Email address</label>
+						    <input type="email" class="form-control" id="emailinput" placeholder="JohnSmith@fakeemail.com">
+						 </div>
+						 <div class="form-group">
+						    <label for="messageinput">Message</label>
+						    <textarea class="form-control" id="messageinput" rows="8" placeholder="Write your message here!"></textarea>
+					  	</div>
+					  <a href="#"><button type="Submit" class="btn btn-secondary text-dark">Submit</button></a>
+					</form>
+				</div>
+			</div>	
+
+		<!--Links Sidebar-->
+			<div class="card col-md-3 offset-md-1 align-self-start">
+				<div class="card-body">
+					<h3>Connect with Me</h3>
+					<hr>
+					<div class="text-center">
+						<a href="https://github.com/imaxprime" target="_blank"><img src="assets/github.png" class="rounded"></a>
+						<a href="https://www.linkedin.com/in/max-adams-1100b533/" target="_blank"><img src="assets/linkedin.png" class="rounded"></a>
+						<a href="https://stackoverflow.com/users/8886470/imaxprime" target="_blank"><img src="assets/overflow.png" class="rounded"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--Footer-->
+	
+	<footer>
+		<nav class="navbar fixed-bottom navbar-dark bg-secondary">
+	  		<a class="text-dark">Copyright &copy; 2017 Max Adams</a>
+		</nav>
+	</footer>
+
+
+</body>
+</html>
